@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Libre+Baskerville&display=swap");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/btn.css");
+
+body {
+
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+h1, h2, {
+	font font-family: "Times", serif;
+}
+
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.container {
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.container h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px 0;
+  color: #333;
+}
+
+
+
+.btn {
+  display: inline-block;
+  background-color:#B7E3FC; 
+  color: #000000 ; 
+  padding: 15px 30px; 
+  border-radius: 4px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: background-color 0.3s; 
+
+.btn:hover {
+  background-color: #176c93; 
+   }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
